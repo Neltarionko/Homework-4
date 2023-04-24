@@ -50,7 +50,7 @@ def clicked3():
 window = Tk()
 window.title("Radiobeacons GUI")
 window.geometry('900x150') 
-lbl = Label(window, text="Введите значения координат маяков, псевдодальностей и погрещности часов (не менее 5):")  
+lbl = Label(window, text="Введите значения координат маяков, псевдодальностей и погрешности часов (не менее 5):")  
 lbl.grid(column=0, row=0)  
 
 txt1= Entry(window,width=100)  
